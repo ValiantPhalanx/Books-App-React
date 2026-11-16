@@ -1,0 +1,29 @@
+button:hover {
+    background-color: #6549D9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #202331;
+    border-bottom: 1px solid #383D50
+}
+
+h1 {
+    color: white;
+    margin-left: 10px;
+}
+
+header button {
+    background-color: transparent;
+    border: 0px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #A0A5B8;
+    height: 100%;
+}
+
+header button:hover {
+    background-color: #292E40;
+    color: #E6E8F0;
+}

@@ -1,0 +1,35 @@
+.book-controls {
+    display: flex;
+    gap: 8px;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 12px 40px rgb(0 0 0 / 15%);
+    margin: 0px;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+}
+
+.searchbars {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.searchbars input, .book-controls select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    border: 1px solid #d1d5db;
+    background-color: var(--bg-elevated);
+    color: var(--text-primary)
+}
+
+.searchbars input:focus, .book-controls select:focus {
+    outline: 2px solid #6366f1;
+    outline-offset: 1px;
+}
+
+.filtering-controls, .sorting-controls {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}

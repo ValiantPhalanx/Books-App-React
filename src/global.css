@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #171923;
+    color: #E6E8F0
+}
+
+:root {
+    --bg-main: #171923;
+    --bg-surface: #202331;
+    --bg-elevated: #292E40;
+
+    --border-color: #383D50;
+
+    --text-primary: #E6E8F0;
+    --text-secondary: #A0A5B8;
+    --text-muted: #747B91;
+    --text-disabled: #555D72;
+    --text-inverse: #171923;
+
+    --accent: #8E77FF;
+    --accent-hover: #765DEB;
+    --accent-subtle: #332B5C;
+    --accent-light: #B5A7FF;
+    --accent-border: #6451B5;
+
+    --success: #48BB78;
+    --success-bg: #193D30;
+
+    --warning: #ECC94B;
+    --warning-bg: #40371D;
+
+    --danger: #F56565;
+    --danger-hover: #E04F4F;
+    --danger-bg: #45252C;
+
+    --info: #63B3ED;
+    --info-bg: #1D354A;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #8E77FF;
+    color: var(--text-primary);
+    border: none;
+}
+
+.books-page-top {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+    padding: 8px 12px;
+}
+
+.books-container {
+    margin: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-surface);
+    padding: 12px;
+}
+
+#my-books-page-section {
+    border: 1px solid var(--border-color)
+}
+
+.error-msg {
+    color: var(--danger);
+    margin: 24px;
+}
+
+#overview-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.overview-card {
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-elevated);
+    border-radius: 16px;
+    margin: 16px;
+    padding: 16px;
+    width: 50%;
+    height: auto;
+    font-size: 24px;
+}
+
+.overview-card-container {
+    display: flex;
+}
